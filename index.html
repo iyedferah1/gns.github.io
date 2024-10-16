@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .about__emoji {
+            font-size: 1.2rem; /* Adjust this size to match your icon size */
+            color: #555;     /* Adjust this color to match the icon color */
+            margin-right: 0px; /* Space between emoji and text */
+            vertical-align: middle; /* Align the emoji with the text */
+        }
+    
+        /* Optional: Adjust for different screen sizes */
+        @media (max-width: 200px) {
+            .about__emoji {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+
+    <title> Iyed's Personality Test  </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a class="nav__logo">GNS 1204 : ASS1</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#job" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#short-movie" class="nav__link">
+                            <i class='bx bx-play-circle'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <meta charset="UTF-8">
+
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Iyed Ferah</h1>
+                    <h3 class="home__education">Tunisian Student living in Malaysia <p>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg" alt="Tunisian flag" style="width:20px; height:auto;"> 
+                      </p>
+                      
+                    </h3>
+
+                    <div class="contact__button" >
+                        <a href="#short-movie" class="button button--ghost">
+                            <span>
+                                Watch Now <i class='bx bx-right-arrow'></i>
+                            </span>
+                        </a>
+
+                        <a href="#about" class="button">Campaigner ?</a>
+                    </div>
+                    
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://linkedin.com/in/iyed-ferah" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://facebook.com/iyed.ferah" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://instagram.com/iyed_ferah" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+            <p style="width: 68%; margin: auto; text-align: center;">
+                Hello! I’m Iyed Ferah, known as "Youda" to my friends. I took the 16 Personalities test and found that I’m an ENFP-T
+                "Campaigner." I'm passionate about aerospace and dedicated to empowering youth through my own foundation, Junior Clubs. <br>Explore the website to discover more about my personality, and don’t forget to check out the special gift at the bottom!
+            </p>
+            <br><br><br>
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <span class="about__emoji">🤔</span>
+                            <h3 class="about__title">Curious</h3>
+                            <span class="about__subtitle">I agree because I find beauty and fascination in nearly anything.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">👁️</span>
+                            <h3 class="about__title">Perceptive</h3>
+                            <span class="about__subtitle">I agree because I easily pick up on the subtle emotions and needs of others.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🎉</span>
+                            <h3 class="about__title">Enthusiastic</h3>
+                            <span class="about__subtitle">I agree because when I’m inspired, I love sharing my excitement with others.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🗣️</span>
+                            <h3 class="about__title">Excellent Communicator</h3>
+                            <span class="about__subtitle">I agree because I enjoy both talking and listening in deep, engaging conversations.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">😎</span>
+                            <h3 class="about__title">Easygoing</h3>
+                            <span class="about__subtitle">I agree because I can easily find joy in the moment and make the best of any situation.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">😊</span>
+                            <h3 class="about__title">Good-Natured and Positive</h3>
+                            <span class="about__subtitle">I agree because I approach life with warmth and friendliness, always striving to get along with others.</span>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+            </div><br>
+            <div class="about__container container grid" style="display: flex; flex-direction: row-reverse;">
+                <img src="assets/img/about2.png" alt="" class="about__img">
+        
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <span class="about__emoji">🙈</span>
+                            <h3 class="about__title">People-Pleasing</h3>
+                            <span class="about__subtitle">Sadly yes, I often compromise on things that matter to me to maintain peace.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🔄</span>
+                            <h3 class="about__title">Unfocused</h3>
+                            <span class="about__subtitle">I disagree because I believe I can maintain focus when necessary.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">📅</span>
+                            <h3 class="about__title">Disorganized</h3>
+                            <span class="about__subtitle">Sadly yes, my love for new ideas sometimes overshadows practical matters.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🤝</span>
+                            <h3 class="about__title">Overly Accommodating</h3>
+                            <span class="about__subtitle">Sadly yes, I often say yes to others and forget to prioritize my own needs.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🌈</span>
+                            <h3 class="about__title">Overly Optimistic</h3>
+                            <span class="about__subtitle">I only partially disagree because while optimism is a strength, it can lead to naive decisions.</span>
+                        </div>
+                        
+                        <div class="about__box">
+                            <span class="about__emoji">🏃‍♂️</span>
+                            <h3 class="about__title">Restless</h3>
+                            <span class="about__subtitle">Sadly yes, I sometimes feel that major areas of my life aren't good enough.</span>
+                        </div>
+                        
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+                    
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="job">
+            <span class="section__subtitle">Work</span>
+            <h2 class="section__title">Career Paths</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Strengths</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-check-shield'></i>
+                                <div>
+                                    <h3 class="skills__name">Idea Generator</h3>
+                                    <span class="skills__level">I acknowledge this because I know how to think creatively and develop innovative solutions that transform ideas into actionable plans. I firmly believe that creativity is the key to success in life !</span>
+                                </div>
+                            </div>
+                    
+                            <div class="skills__data">
+                                <i class='bx bx-check-shield'></i>
+                                <div>
+                                    <h3 class="skills__name">Enthusiastic Motivator</h3>
+                                    <span class="skills__level">I resonate with this because I consistently bring positive energy to my team, inspiring others to stay engaged and motivated towards our goals.
+
+                                    </span>
+                                </div>
+                            </div>
+                    
+                            <div class="skills__data">
+                                <i class='bx bx-check-shield'></i>
+                                <div>
+                                    <h3 class="skills__name">Adaptable Problem-Solver</h3>
+                                    <span class="skills__level">I can relate to this because I have successfully navigated unexpected challenges in the past, demonstrating my ability to remain flexible and find effective solutions.</span>
+                                </div>
+                            </div>
+                    
+                            <div class="skills__data">
+                                <i class='bx bx-check-shield'></i>
+                                <div>
+                                    <h3 class="skills__name">Skilled Networker</h3>
+                                    <span class="skills__level">I affirm this because I have built valuable connections throughout my career, leveraging my natural charm to create lasting professional relationships.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Weaknesses</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx  bx-error-alt'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Routine Averse
+                                    </h3>
+                                    <span class="skills__level"> I completely disagree with this characterization. My experience in high school and working on various projects has made me accustomed to routine, and I can easily spend over 20 hours at my desk focused on a single task.</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx  bx-error-alt'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Easily Distracted
+                                    </h3>
+                                    <span class="skills__level">I partially agree with this, as my pursuit of new ideas can sometimes lead me to leave tasks unfinished and start looking for new ideas :( </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx  bx-error-alt'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Structure Skeptic</h3>
+                                    <span class="skills__level">I resonate with this sentiment because I often find rigid systems stifling, which can create conflict in traditional work environments. I prefer working in the place that give me more peace !</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx  bx-error-alt'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Impulsive</h3>
+                                    <span class="skills__level">I strongly disagree with this description, as I pride myself on making thoughtful decisions and rely on my wisdom to guide me in various situations. For example, in my foundation and social circles, I often take on the role of a wise decision-maker, especially in emotional situations.
+
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">What Job</span>
+            <h2 class="section__title">Suits me</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Entrepreneur</h3>
+
+                        <span class="services__button">
+                            Why ? <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Entrepreneur</h3>
+
+                            <p class="services__modal-description">
+                                I create and manage my own business, using my creativity and vision to develop innovative products or services that bring value to people’s lives. I lead my team with inspiration, flexibility, and a focus on new ideas and opportunities.
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Freedom to explore and express creativity.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Flexibility in managing your work and time.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Opportunity to build meaningful connections and impact communities.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Constantly evolving challenges that keep you engaged.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Pilot</h3>
+
+                    <span class="services__button">
+                        Know More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Pilot 🧑‍✈️</h3>
+
+                            <p class="services__modal-description">
+                                I navigate aircraft across the skies, ensuring the safety of passengers while experiencing the thrill of exploration and adventure. I use quick decision-making and problem-solving skills to manage complex flying conditions and enjoy the independence and responsibility that come with this role.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Obsession with aerospace stems from the excitement and adventure that align with my love of new experiences.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Constantly changing environments and challenges.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Ability to see the world and meet diverse people.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Requires strong focus and quick-thinking, skills i can adapt to.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Professor</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Professor/Educator</h3>
+
+                            <p class="services__modal-description">
+                                I teach and inspire students, fostering curiosity and a passion for learning. I enjoy developing new ideas, exploring different teaching methods, and encouraging students to think critically about the world around them.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Ability to share knowledge and inspire others, which matches my enthusiasm for communication.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Flexibility in research and teaching methods, allowing for creative expression.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Opportunity to work with and mentor young, dynamic individuals.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Intellectual stimulation and constant learning, keeping me mentally engaged.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="short-movie">
+            <span class="section__subtitle">Enjoy Cinema</span>
+            <h2 class="section__title">WHO I AM !</h2>
+
+            <!-- Video Player Container -->
+            <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" /><script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+<div class="video-container">
+    <!-- Video.js Player -->
+    <video
+      id="my-video"
+      class="video-js vjs-default-skin"
+      controls
+      preload="auto"
+      poster="https://vjs.zencdn.net/v/oceans.png"
+      data-setup='{"fluid": true}'>
+      <source src="./assets/img/finalversionvideo.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>.
+      </p>
+    </video>
+</div>
+
+
+            <div class="work__container container grid">
+                
+
+                
+
+                
+
+                
+
+                
+
+            </div>
+        </section>
+
+        
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">i24028940@student.newinti.edu.my</span>
+
+                            <a href="mailto:i24028940@student.newinti.edu.my" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+60 11-25404878</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+601125404878&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Text Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">iyed_ferah</span>
+
+                            <a href="https://instagram.com/iyed_ferah" target="_blank" class="contact__button">
+                                Foolw Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+                
+                    <form id="contactForm" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" id="name" placeholder="Enter name" class="contact__form-input" required>
+                        </div>
+                
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" id="email" placeholder="Enter email" class="contact__form-input" required>
+                        </div>
+                
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea id="message" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input" required></textarea>
+                        </div>
+                
+                        <button type="submit" class="button">
+                            Send Message
+                        </button>
+                    </form>
+                
+                    <script type="module">
+                        // Import the functions you need from the SDKs you need
+                        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+                        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
+                        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js"; // Import Realtime Database functions
+                      
+                        // Your web app's Firebase configuration
+                        const firebaseConfig = {
+                          apiKey: "AIzaSyArX6XIFi6m5YRAVbmlZLzu-C5eik7e7YA",
+                          authDomain: "iyyyyyyyyyyyyed.firebaseapp.com",
+                          databaseURL: "https://iyyyyyyyyyyyyed-default-rtdb.firebaseio.com",
+                          projectId: "iyyyyyyyyyyyyed",
+                          storageBucket: "iyyyyyyyyyyyyed.appspot.com",
+                          messagingSenderId: "617897490398",
+                          appId: "1:617897490398:web:cb33044e1db5d9ca3ecf4f",
+                          measurementId: "G-TBCRRSZ0M0"
+                        };
+                      
+                        // Initialize Firebase
+                        const app = initializeApp(firebaseConfig);
+                        const analytics = getAnalytics(app);
+                        const database = getDatabase(app); // Initialize Realtime Database
+                      
+                        // Handle form submission
+                        document.getElementById('contactForm').addEventListener('submit', async (event) => {
+                            event.preventDefault(); // Prevent the default form submission
+                      
+                            // Get form values
+                            const name = document.getElementById('name').value;
+                            const email = document.getElementById('email').value;
+                            const message = document.getElementById('message').value;
+                      
+                            // Create a unique key for each message
+                            const messageKey = Date.now(); // Using current timestamp as a unique key
+                      
+                            try {
+                                // Set the data in the Realtime Database
+                                await set(ref(database, 'messages/' + messageKey), {
+                                    name: name,
+                                    email: email,
+                                    message: message,
+                                    timestamp: new Date().toISOString() // Optionally add a timestamp
+                                });
+                                alert('Message sent successfully!');
+                      
+                                // Clear the form after submission
+                                document.getElementById('contactForm').reset();
+                            } catch (error) {
+                                console.error('Error sending message: ', error);
+                                alert('Error sending message: ' + error.message);
+                            }
+                        });
+                      </script>
+                      
+                </div>
+                
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Iyed Ferah</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#job" class="footer__link">Career Path</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#short-movie" class="footer__link">Short Movie</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/iyed.ferah/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/iyed-ferah/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/iyed_ferah/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024 Made With Love By YOUDA. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
